@@ -6,7 +6,7 @@ public class StudentGrading {
         if (finalGrade < 6)
             System.out.print("FAILED");
         else if (finalGrade == 6)
-            System.out.print("LAST CHANCE TEST");
+            System.out.print("LAST CHANCE TEST"); //Famous test
         else
             System.out.print("APPROVED");
     }
