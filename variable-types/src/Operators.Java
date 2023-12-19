@@ -8,6 +8,7 @@ public class Operators {
         testInvertBoolean();
         testNumericalSignChange();
         testQuickSumSub();
+        testTernaryOperator();
     }
 
     public static void testConcatenation() {
@@ -81,5 +82,24 @@ public class Operators {
 
         bobobo = !bobobo;             //variable value inverted
         System.out.println(bobobo);   //false
+    }
+
+    public static void testTernaryOperator() {
+
+        /*
+        ::The Ternary Operator::
+        Use (?) to simulate an "if" scenario and (:) to separate the possible outcomes.
+        The first outcome (after '?' and before the ':') is triggered if the scenario is true
+        and the second (after the ':') is triggered is the scenario is false.
+        Run on Debug to check it out!
+        */
+        int a = 5;
+        int b = 6;
+
+        String result1 = a==b ? "A and B are the same!" : "A and B are different!";
+        int result2 = a+b==11 ? 1 : 0;
+
+        System.out.println(result1);     //"diferent", since A and B don't have the same value 
+        System.out.println(result2);     //1, since A+B is equal to 11
     }
 }
