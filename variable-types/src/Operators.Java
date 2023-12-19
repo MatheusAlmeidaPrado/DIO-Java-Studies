@@ -13,6 +13,8 @@ public class Operators {
         testQuickSumSub();
 
         testTernaryOperator();
+
+        testRelationalOperators();
     }
 
     public static void testConcatenation() {
@@ -125,6 +127,9 @@ public class Operators {
         int b = 3;
         int c = -7;
         double d = 1.1;
+        String to1 = "tomato";
+        String to2 = "tomato ";
+
         String yesNo;
 
         yesNo = a+b==5 ? "Yes!" : "No!";
@@ -135,6 +140,8 @@ public class Operators {
         System.out.println("Is 3 bigger than -7 ?  " + yesNo);                  //Yes!
         yesNo = d<=c ? "Yes!" : "No!";
         System.out.println("Is 1.1 smaller than or equal to -7 ?  " + yesNo);   //No!
+        yesNo = to1==to2 ? "Yes!" : "No!";
+        System.out.println("Is 'tomato' equal to 'tomato '?  " + yesNo);        //No!, because of the space after the word
 
     }
 }
