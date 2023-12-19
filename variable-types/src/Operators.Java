@@ -14,9 +14,10 @@ public class Operators {
 
         /*
         ::Summing and Concatenation in a String::
-        The system stops summing once it notices a text value (Unless you use parentheses).
+        Use (+) to Concat or Sum. The system stops summing once it notices a text value (Unless you use parentheses).
         Run on Debug to check it out!
         */
+
         String concat = "I wonder what will happen?"; 
 
         concat = 1+1+1+"1";
