@@ -20,7 +20,7 @@ public class Operators {
     public static void testConcatenation() {
 
         /*
-        ::Summing and Concatenation in a String::
+        :: Summing and Concatenation in a String ::
         Use (+) to Concat or Sum. The system stops summing once it notices a text value (Unless you use parentheses).
         Run on Debug to check it out!
         */
@@ -43,7 +43,7 @@ public class Operators {
     public static void testNumericalSignChange() {
 
         /*
-        ::Alternating between Positives and Negatives::
+        :: Alternating between Positives and Negatives ::
         Use the (-) operator to change between the positive and negative "versions" of a number.
         Run on Debug to check it out!
         */
@@ -60,7 +60,7 @@ public class Operators {
     public static void testQuickSumSub() {
 
         /*
-        ::Increasing and Decreasing values ​​quickly::
+        :: Increasing and Decreasing values ​​quickly ::
         Some tests with the (++) and (--) operators.
         Run on Debug to check it out!
         */
@@ -78,7 +78,7 @@ public class Operators {
     public static void testInvertBoolean() {
 
         /*
-        ::Inverting Booleans::
+        :: Inverting Booleans ::
         Use the (!) operator to invert the value of a boolean variable.
         Run on Debug to check it out!
         */
@@ -93,7 +93,7 @@ public class Operators {
     public static void testTernaryOperator() {
 
         /*
-        ::The Ternary Operator::
+        :: The Ternary Operator ::
         Use (?) to simulate an "if" scenario and (:) to separate the possible outcomes.
         The first outcome (after '?' and before the ':') is triggered if the scenario is true
         and the second (after the ':') is triggered is the scenario is false.
@@ -112,7 +112,7 @@ public class Operators {
     public static void testRelationalOperators() {
 
         /*
-        ::Relational Operators::
+        :: Relational Operators ::
         These are simples operators that work as they do in normal mathematical operations.
         They are primarly used to compare aspects between two given values.
         * ==    Equal to
@@ -127,6 +127,7 @@ public class Operators {
         int b = 3;
         int c = -7;
         double d = 1.1;
+        String f = "1";
         String to1 = "tomato";
         String to2 = "tomato ";
 
@@ -142,6 +143,37 @@ public class Operators {
         System.out.println("Is 1.1 smaller than or equal to -7 ?  " + yesNo);   //No!
         yesNo = to1==to2 ? "Yes!" : "No!";
         System.out.println("Is 'tomato' equal to 'tomato '?  " + yesNo);        //No!, because of the space after the word
+        
+        /*
+        yesNo = a==f ? "Yes!" : "No!";
+        The line above won't even run. You can't compare a Number to a Text.
+        */
+    }
+
+    public static void testLogicalOperators() {
+
+        /*
+        :: Logical Operators ::
+        They allow the creation of bigger logical operations by joining two or more different logical operations.
+        * &&    "AND"
+        * ||    "OR"
+        Run on Debug to check it out!
+        */
+        boolean condition1 = true;
+        boolean condition2 = 1+1==5; //false
+
+        if (condition1 && condition2) {      //Won't run since one condition is false
+            System.out.println("Both conditions are true!");
+        }
+        if (condition1 || condition2) {      //Will run since condition1 is true
+            System.out.println("At least one condition is true!");
+        }
+        if (11+11==22 && 32>23) {           //Will always run since both conditions will always be true
+            System.out.println("Both conditions are true!");
+        }
+        if (1+2==2 || 22+3!=25) {           //Won't run since both conditions will always be false (Dead Code)
+            System.out.println("At least one condition is true!");
+        }
 
     }
 }
