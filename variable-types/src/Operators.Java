@@ -5,9 +5,13 @@ public class Operators {
         System.out.println("Let's test some stuff!");
         
         testConcatenation();
+
         testInvertBoolean();
+
         testNumericalSignChange();
+
         testQuickSumSub();
+
         testTernaryOperator();
     }
 
@@ -101,5 +105,36 @@ public class Operators {
 
         System.out.println(result1);     //"diferent", since A and B don't have the same value 
         System.out.println(result2);     //1, since A+B is equal to 11
+    }
+
+    public static void testRelationalOperators() {
+
+        /*
+        ::Relational Operators::
+        These are simples operators that work as they do in normal mathematical operations.
+        They are primarly used to compare aspects between two given values.
+        * ==    Equal to
+        * !=    Different than
+        * >     Bigger than
+        * >=    Bigger than or Equal to 
+        * <     Smaller than
+        * <=    Smaller than or Equal to
+        Run on Debug to check it out!
+        */
+        int a = 1;
+        int b = 3;
+        int c = -7;
+        double d = 1.1;
+        String yesNo;
+
+        yesNo = a+b==5 ? "Yes!" : "No!";
+        System.out.println("Does 1 + 3 = 5 ?  " + yesNo);                       //No!
+        yesNo = a!=d ? "Yes!" : "No!";
+        System.out.println("Is 1 different than 1.1 ?  " + yesNo);              //Yes!
+        yesNo = b>c ? "Yes!" : "No!";
+        System.out.println("Is 3 bigger than -7 ?  " + yesNo);                  //Yes!
+        yesNo = d<=c ? "Yes!" : "No!";
+        System.out.println("Is 1.1 smaller than or equal to -7 ?  " + yesNo);   //No!
+
     }
 }
