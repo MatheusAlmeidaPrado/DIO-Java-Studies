@@ -127,10 +127,9 @@ public class Operators {
         int b = 3;
         int c = -7;
         double d = 1.1;
-        String f = "1";
+        //String f = "1";           [This is used in a note bellow]
         String to1 = "tomato";
         String to2 = "tomato ";
-
         String yesNo;
 
         yesNo = a+b==5 ? "Yes!" : "No!";
@@ -168,12 +167,13 @@ public class Operators {
         if (condition1 || condition2) {      //Will run since condition1 is true
             System.out.println("At least one condition is true!");
         }
-        if (11+11==22 && 32>23) {           //Will always run since both conditions will always be true
+        /*
+        if (11+11==22 && 32>23) {           //*Will always run since both conditions will always be true
             System.out.println("Both conditions are true!");
         }
-        if (1+2==2 || 22+3!=25) {           //Won't run since both conditions will always be false (Dead Code)
+        if (1+2==2 || 22+3!=25) {           //*Won't run since both conditions will always be false (Dead Code)
             System.out.println("At least one condition is true!");
         }
-
+        */
     }
 }
