@@ -6,7 +6,7 @@ public class User {
         // This class/method simulates the actions of a person using a TV remote...
         //Run on Debug to see the line prints!
 
-        System.out.println("Is the TV on?    " + smartTv.onOff);
+        System.out.println("Is the TV on?    " + (smartTv.onOff ? "Yes!" : "No!"));
 
         smartTv.turnOnOff();
 
