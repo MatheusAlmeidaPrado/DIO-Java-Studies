@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "args": [
+                "Matheus",
+                "Almeida",
+                "22",
+                "5.9"
+            ],
+            "projectName": "DIO-Java-Studies_15072b8e"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "Operators",
+            "projectName": "DIO-Java-Studies_15072b8e"
+        },
+        {
+            "type": "java",
+            "name": "User",
+            "request": "launch",
+            "mainClass": "User",
+            "projectName": "DIO-Java-Studies_15072b8e"
+        },
+        {
+            "type": "java",
+            "name": "VariableDataTypes",
+            "request": "launch",
+            "mainClass": "VariableDataTypes",
+            "projectName": "DIO-Java-Studies_15072b8e"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "mat.almeida.study.weekone.App",
+            "projectName": "DIO-Java-Studies_15072b8e"
+        },
+        {
+            "type": "java",
+            "name": "MyClass",
+            "request": "launch",
+            "mainClass": "mat.almeida.study.weekone.MyClass",
+            "projectName": "DIO-Java-Studies_15072b8e"
+        },
+        {
+            "type": "java",
+            "name": "StudentGrading",
+            "request": "launch",
+            "mainClass": "mat.almeida.study.weekone.StudentGrading",
+            "projectName": "DIO-Java-Studies_15072b8e"
+        },
+        {
+            "type": "java",
+            "name": "Nothing",
+            "request": "launch",
+            "mainClass": "mat.almeida.study.weektwo.Nothing",
+            "projectName": "DIO-Java-Studies_15072b8e"
+        }
+    ]
+}
