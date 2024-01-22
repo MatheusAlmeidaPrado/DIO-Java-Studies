@@ -80,24 +80,26 @@ public class StudentGrades {
          * Without a 'break;' inside the equivalent case, all codes under such case will be executed (regardless of equivalency) until/if a break is found!
          * A 'default :' may be used to set a code outcome in case no cases are equivalent!
         */
+
         intAverage = (int)average;
         System.out.println("You have recieved: ");
+
         switch (intAverage) {
             case 1,2,3,4,5,6 : {
                 System.out.println("No rewards.");
                 break;
             }
             case 10 : {
-                System.out.println("* A travel discount for your next vacation!");
+                System.out.println(" * A travel discount for your next vacation!");
             }
             case 9 : {
-                System.out.println("* A free seat in any upcoming lecture in this next semester!");
+                System.out.println(" * A free seat in any upcoming lecture in this next semester!");
             }
             case 8 : {
-                System.out.println("* A 40% discount for a book in the local library!");
+                System.out.println(" * A 40% discount for a book in the local library!");
             }
             case 7 : {
-                System.out.println("* A free cupcake.");
+                System.out.println(" * A free cupcake.");
                 break;
             }
             default : {
