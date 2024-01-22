@@ -144,8 +144,8 @@ public class Operators {
         System.out.println("Is 'tomato' equal to 'tomato '?  " + yesNo);        //No!, because of the space after the word
         
         /*
+        The line bellow won't even run. You can't compare a Number to a Text.
         yesNo = a==f ? "Yes!" : "No!";
-        The line above won't even run. You can't compare a Number to a Text.
         */
     }
 

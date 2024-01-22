@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StudentGrades",
+            "request": "launch",
+            "mainClass": "StudentGrades",
+            "projectName": "DIO-Java-Studies_15072b8e"
+        },
+        {
+            "type": "java",
             "name": "ContaTerminal",
             "request": "launch",
             "mainClass": "ContaTerminal",
